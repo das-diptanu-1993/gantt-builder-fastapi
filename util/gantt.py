@@ -140,7 +140,7 @@ def plot_gantt(title, row_data, color_theme=color_theme):
     ax1.set_xticks([])
     ax1.set_yticks([])
     fig_manager = plt.get_current_fig_manager()
-    fig_manager.window.state('zoomed')
+    # fig_manager.window.state('zoomed')
     return True
 
 def file2row(file_name):
