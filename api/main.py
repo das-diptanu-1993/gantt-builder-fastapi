@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import HTMLResponse, FileResponse
 from typing import Annotated
