@@ -2,8 +2,8 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import HTMLResponse, FileResponse
 from typing import Annotated
 from util.gantt import file2row, plot_gantt, save_plot, FIG_LOCATION
-# import matplotlib
-# matplotlib.use('TkAgg')
+import matplotlib
+matplotlib.use('TkAgg')
 
 app = FastAPI()
 
